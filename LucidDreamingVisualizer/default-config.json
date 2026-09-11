@@ -1,0 +1,85 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/config_schema.json",
+  "enabled": true,
+  "settings": {
+    "rearViewKey": {
+      "type": "text",
+      "value": "G",
+      "title": "Display Key",
+      "tooltip": "Key to press to see the display"
+    },
+    "loadDreamKey": {
+      "type": "text",
+      "value": "P",
+      "title": "Load Dream Key",
+      "tooltip": "Key to press to load dream world"
+    },
+    "stop0gKey": {
+      "type": "text",
+      "value": "O",
+      "title": "Stop 0g Key",
+      "tooltip": "Key to press to disable the ship's interaction with the cloaking field"
+    },
+    "fartherKey": {
+      "type": "text",
+      "value": ".",
+      "title": "Farther Key",
+      "tooltip": "Key to press to move cam farther"
+    },
+    "nearerKey": {
+      "type": "text",
+      "value": ",",
+      "title": "Nearer Key",
+      "tooltip": "Key to press to move cam closer"
+    },
+    "timesTenModifierKey": {
+      "type": "text",
+      "value": "'",
+      "title": "Cam Movement 10x Modifier Key",
+      "tooltip": "Hold this when you press farther or nearer to go faster"
+    },
+    "rearViewToggle": {
+      "type": "toggle",
+      "value": true,
+      "title": "Toggle Display",
+      "yes": "Toggle",
+      "no": "Hold",
+      "tooltip": "Toggle or hold key to view display"
+    },
+    "mirrorRearViewCamera": {
+      "type": "toggle",
+      "value": false,
+      "title": "Mirror camera display",
+      "yes": "Mirror",
+      "no": "Camera",
+      "tooltip": "Flips the camera output when set to Mirror"
+    },
+    "misc": {
+      "type": "separator"
+    },
+    "rearViewCameraX": {
+      "type": "number",
+      "value": 10,
+      "title": "Display X",
+      "tooltip": "X pos of the bottom left corner of the display"
+    },
+    "rearViewCameraY": {
+      "type": "number",
+      "value": 10,
+      "title": "Display Y",
+      "tooltip": "Y pos of the bottom left corner of the display"
+    },
+    "rearViewCameraWidth": {
+      "type": "number",
+      "value": 512,
+      "title": "Display Width",
+      "tooltip": "Width of the display"
+    },
+    "rearViewCameraHeight": {
+      "type": "number",
+      "value": 512,
+      "title": "Display Height",
+      "tooltip": "Height of the display"
+    }
+  }
+}
